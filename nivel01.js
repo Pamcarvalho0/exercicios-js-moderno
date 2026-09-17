@@ -7,7 +7,7 @@ const aluno1 = {
 
 console.log(aluno1);
 
-// 2. Acessando propriedades 
+// 2. Acessando propriedades
 const produto = {
   nome: "Teclado",
   preco: 150,
@@ -40,7 +40,7 @@ const somar = (numero) => numero + 20;
 
 console.log(somar(10, 20));
 
-// 7. Criando uma mmensagem 
+// 7. Criando uma mmensagem
 const apresentar = {
     nome1: "Pamela",
     curso1: "Densenvolvimento de Sistemas"
