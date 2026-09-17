@@ -53,3 +53,20 @@ const produto = {
 };
 
 console.log(`Produto: ${produto.nome} - Preço R$ ${produto.preco}`);
+
+// 13. Desestruturação diretamente na função
+const mostrarProdutoDesestruturado = ({ nome, preco }) => {
+  return (`Produto: ${nome} - Preço: R$ ${preco}`);
+};
+
+console.log(mostrarProdutoDesestruturado(produto));
+
+// 14. Apresentando uma pessoa
+
+const pessoa = {
+  nome: "Mariana",
+  idade: 25,
+  profissao: "Desenvolvedora"
+};
+
+console.log(`${pessoa.nome} tem ${pessoa.idade} e trabalha como ${pessoa.profissao}.`);
